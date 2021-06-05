@@ -57,7 +57,7 @@ posx2+=0.5;
     text("Suarez",posx4,330);
     posx3-=1;
     posx4+=1;
-  if(posx4>780){
+  if(posx4>790){
     image(disco,600,300,1200,600);
     textSize(30);
     fill(255);
@@ -80,19 +80,19 @@ posx2+=0.5;
   text("v",900,y10);
   text("a",900,y11);
   text("s",900,y12);
-  y1+=1;
-  y2+=1;
-  y3+=1;
-  y4+=1;
-  y5+=1;
-  y6+=1;
-  y7+=1;
-  y8-=1;
-  y9-=1;
-  y10-=1;
-  y11-=1;
-  y12-=1;
- if(y1>240){
+  y1+=1.6;
+  y2+=1.6;
+  y3+=1.6;
+  y4+=1.6;
+  y5+=1.6;
+  y6+=1.6;
+  y7+=1.6;
+  y8-=1.6;
+  y9-=1.6;
+  y10-=1.6;
+  y11-=1.6;
+  y12-=1.6;
+ if(y1>230){
   fill(0);
   rect (0,0,1200,600);
   textSize(tamtexto1);
@@ -124,7 +124,7 @@ segs ++;
 }
 fill(0);
 text(segs, width/2, height/2);
-    if(segs>0.5){
+    if(segs>0.2){
      rect(0,0,1200,600);
      fill(255);
      textSize(20);
@@ -140,10 +140,9 @@ text(segs, width/2, height/2);
     if(segs>1){
       fill(0);
     rect(0,0,1200,600);
-    }
 }
 }
-   
+}
 }
 } 
 }
