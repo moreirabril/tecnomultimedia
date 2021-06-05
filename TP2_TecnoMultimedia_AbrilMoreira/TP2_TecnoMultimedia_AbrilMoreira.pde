@@ -48,7 +48,7 @@ posx1-=1;
 textSize(45);
 fill(255,0,0);
 text("NETFLIX",posx2,300);
-posx2+=1;
+posx2+=0.5;
   if(posx2>550){
     image(cigarro,600,300,1200,600);
     textSize(35);
