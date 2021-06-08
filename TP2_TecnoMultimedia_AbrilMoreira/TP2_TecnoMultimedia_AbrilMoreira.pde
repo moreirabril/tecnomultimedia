@@ -1,9 +1,6 @@
 PImage intro,cigarro,disco,smoke;
 PFont miLetra;
-float posx1,posx2,posx3,posx4,posy1,posy2,tamtexto1,tamtexto2;
-int y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,segs;
-
-
+float posx1,posx2,posx3,posx4,posy1,posy2,tamtexto1,tamtexto2,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,segs;
 
 void setup(){
 size(1200,600);
