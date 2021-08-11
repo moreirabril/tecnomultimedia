@@ -56,11 +56,11 @@ void draw() {
   fill(255);
   circle( 450, 445, 60 );
   fill(0);
-  text("+", 450, 440);
+  text("-", 450, 440);
   fill(255);
   circle( 580, 445, 60 );
   fill(0);
-  text("-", 580, 440);
+  text("+", 580, 440);
   fill(255);
   circle( 730, 445, 60 );
   fill(0);
