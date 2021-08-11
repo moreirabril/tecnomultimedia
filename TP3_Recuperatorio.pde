@@ -1,3 +1,5 @@
+Enlace al video: https://youtu.be/oriAxFFA35w
+
 int esc;
 float r, g, paso, paso2, r1, g2, b3, r4, g5, b6, grilla, rojo, verde, azul, veloc;
 boolean aumento=true;
