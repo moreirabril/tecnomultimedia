@@ -265,9 +265,9 @@ void mousePressed() {
 
 void keyPressed () {
   if (key=='r'&& pantalla==13 ) {
-    pantalla=0;
+    pantalla=9;
   } else if (key=='r'&& pantalla==23 ) {
-    pantalla=0;
+    pantalla=9;
   } else if (key=='r'&& pantalla==30 ) {
     pantalla=0;
   }
