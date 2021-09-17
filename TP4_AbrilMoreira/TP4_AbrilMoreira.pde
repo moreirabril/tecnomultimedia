@@ -1,3 +1,5 @@
+//Enlace al video: https://youtu.be/zjsRCdEqdKU
+
 PImage [] introduccion = new PImage [8];
 PImage [] piedra = new PImage [3];
 PImage [] dracula = new PImage [4];
