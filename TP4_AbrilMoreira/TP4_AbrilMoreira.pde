@@ -239,7 +239,7 @@ void mousePressed() {
 void keyPressed () {
   if (key=='r'&& pantalla==13 ) {
     pantalla=0;
-  } else if (key=='r'&& pantalla==25 ) {
+  } else if (key=='r'&& pantalla==23 ) {
     pantalla=0;
   }
 }
