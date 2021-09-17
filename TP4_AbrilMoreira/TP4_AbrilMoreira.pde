@@ -107,7 +107,7 @@ void draw() {
   if (pantalla==13) {
     image (muerto, 640, 360, 1280, 720);
     textAlign(CENTER, CENTER);
-    texto("Has muerto,\n presiona r para reiniciar", 25, 0, width/2, 650);
+    texto("Has muerto,\n presiona r para volver a comenzar", 25, 0, width/2, 650);
   }
   if (pantalla ==14) {
     image(dracula[0], 640, 360, 1280, 720);
@@ -149,7 +149,7 @@ void draw() {
   if (pantalla==22) {
     image(egipto[4], 640, 360, 1280, 720);
     recuadro (color(255, 108, 197, 140), 50, 530, 1160, 160, 40);
-    texto("Investigador:OYE TU!!DEVUELVEME ESO!!\nRapido,te persigue,deberar optar por 2 caminos",25, 255, 100, 590);
+    texto("Investigador:OYE TU!!DEVUELVEME ESO!!\nRapido,te persigue,deberas optar por 2 caminos",25, 255, 100, 590);
     botonOpcion(color(255, 108, 197), 660, 550, 450, 50);
     botonOpcion(color(255, 108, 197), 660, 630, 450, 50);
     texto("<Camino directo,pero sin escondites.>", 25, 255, 665, 575);
@@ -157,6 +157,10 @@ void draw() {
   }
   if (pantalla==23) {
     image(investigador, 640, 360, 1280, 720);
+    recuadro (color(255, 108, 197, 140), 50, 530, 1160, 160, 40);
+    texto ("Como el camino era directo pero carecia de escondites para disuadir al investigador,\nlogro capturarte y robarte todas tus cosas.",25, 255, 100, 590);
+    texto("Presiona r para volver a comenzar.",25, 255, 750, 650);
+    
   }
   if (pantalla==24) {
     image(egipto[5], 640, 360, 1280, 720);
@@ -191,7 +195,7 @@ void draw() {
   if (pantalla==30) {
   image(creditos, 640, 360, 1280, 720);
   textAlign(CENTER,CENTER);
-  texto("CREDITOS:\nJUEGO ORIGINAL:La Plantera Rosa,\nLa persecucion mas rosa de PlayStation One.\n ILUSTRACIONES/FOTOS:CoffeeD!Games,en Youtube.\nALUMNA:Moreira Abril.\nLEGAJO:88127/2.\nTECNOLOGIA MULTIMEDIA 1",30, 255,800,400);
+  texto("CREDITOS:\nJUEGO ORIGINAL:La Plantera Rosa,\nLa persecucion mas rosa de PlayStation One.\n ILUSTRACIONES/FOTOS:CoffeeD!Games,en Youtube.\nALUMNA:Moreira Abril.\nLEGAJO:88127/2.\nTECNOLOGIA MULTIMEDIA 1.\n Presiona r para volver a inicio.",30, 255,800,400);
   }
 }
 
