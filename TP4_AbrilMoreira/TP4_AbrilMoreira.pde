@@ -149,8 +149,8 @@ void draw() {
   if (pantalla==22) {
     image(egipto[4], 640, 360, 1280, 720);
     recuadro (color(255, 108, 197, 140), 50, 530, 1160, 160, 40);
-    texto("Investigador:OYE TU!!DEVUELVEME ESO!!\nRapido,te persigue,deberar por 2 ca0, 590);
-    botocion(color(255, 108, 197), 660, 550, 450, 50);
+    texto("Investigador:OYE TU!!DEVUELVEME ESO!!\nRapido,te persigue,deberar optar por 2 caminos",25, 255, 100, 590);
+    botonOpcion(color(255, 108, 197), 660, 550, 450, 50);
     botonOpcion(color(255, 108, 197), 660, 630, 450, 50);
     texto("<Camino directo,pero sin escondites.>", 25, 255, 665, 575);
     texto("<Camino largo,pero con escondites.--->", 25, 255, 665, 650);
