@@ -82,7 +82,7 @@ void draw() {
   if (pantalla == 8) {
     image(introduccion[7], 640, 360, 1280, 720);
     recuadro (color(255, 108, 197, 140), 50, 530, 1160, 160, 40);
-    texto("Y bueno,a caballo regalado,no se le miran los dientes...", 30, 255, 100, 580);
+    texto("Ok,ahi vamos...", 30, 255, 100, 580);
   }
   if (pantalla == 9) {
     background(0);
