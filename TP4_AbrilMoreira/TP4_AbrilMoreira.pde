@@ -99,7 +99,7 @@ void draw() {
   if (pantalla==11) {
     image(piedra[1], 640, 360, 1280, 720);
     recuadro (color(255, 108, 197, 140), 50, 530, 1160, 160, 40);
-    texto("(Oh no,caiste en la epoca de la prehistoria,deberias tener cuidado!) \n -Ouch!Creo que me calve una piedra...Que calor hace por aca,ire en busca de agua...", 30, 255, 100, 580);
+    texto("(Oh no,caiste en la epoca de la prehistoria,deberias tener cuidado!) \n -Ouch!Creo que me clave una piedra...Que calor hace por aca,ire en busca de agua...", 30, 255, 100, 580);
   }
   if (pantalla==12) {
     image(piedra[2], 640, 360, 1280, 720);
