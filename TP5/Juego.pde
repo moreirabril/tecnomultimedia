@@ -28,7 +28,7 @@ class Juego {
 
   void actualizar() {
     if (estado=="inicio") {
-      background(255, 0, 0);
+      image(fondo, width/2, height/2, 1200, 600);
       boton1.actualizar();
     } else if (estado=="jugando") {
       image(fondo, width/2, height/2, 1200, 600);
