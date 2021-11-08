@@ -32,6 +32,12 @@ class Jugador {
       x=constrain(x, 0, width);
       y=constrain(y, 0, height);
     }
+   
+   void reciclar(){
+     x=100;
+     y=height/2;
+}
+    
   }
 
   void colision (Enemigo[] en) {
