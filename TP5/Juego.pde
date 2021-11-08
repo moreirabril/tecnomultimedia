@@ -62,6 +62,7 @@ class Juego {
       boton3.actualizar();
       textSize(40);
       text("Bien! Lograste escapar,\ny volver a tu mundo!", 800, 300);
+      jugador1.reciclar();
     }
   }
 
